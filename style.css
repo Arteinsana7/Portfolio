@@ -196,7 +196,7 @@ ajuster la taille de le menu hamburger quand il est en mode écran.
   
   section {
     /* padding-top: 15vh; */
-    height: 96vh ;
+    height: 100vh ;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;

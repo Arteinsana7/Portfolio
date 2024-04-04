@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
     #profile{
         height: 83vh;
-        margin-bottom: 6rem;
+        margin-bottom: 10rem;
 
     }
     .about-containers{
@@ -50,7 +50,7 @@
 @media screen and (max-width: 600px) {
     #contat, 
     footer {
-        height: 83vh;
+        height: 20vh;
         margin-bottom: 0;
     }
     article {
@@ -87,6 +87,8 @@
         text-align: center;
     }
     .section__pic-container {
+        /* position: relative; */
+        padding-top: 5rem;
         width: auto;
         height: 46vw;
         justify-content: center;

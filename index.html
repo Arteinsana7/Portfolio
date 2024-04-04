@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+<div class="logo">{Eliana Yepez}</div>
+<div>
+        <ul class="nav-links"> 
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#experience">Experience</a></li>
+          <li> <a href="#projects">Projects</a></li>
+          <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </div> 
+</nav>
+<nav id="hamburger-nav"> 
+    <div class="logo" >Eliana Yepez</div> 
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+        </div> 
+       <div class="menu-links">
+        <li> <a href="#about" onclick="toggleMenu()" >About</a></li>
+        <li> <a href="#experience" onclick="toggleMenu()" >Experience</a></li>
+        <li> <a href="#projects" onclick="toggleMenu()" >Projects</a></li>
+        <li> <a href="#contact" onclick="toggleMenu()" >Contact</a></li>
+       </div> 
+    </div>
+</nav>  
+<section id="profile">
+    <div class="section__pic-container ">
+        <img src="./assets/FISH_3.png" alt="Eliana Yepez profile picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1"> Hello ! I am </p>
+        <h1 class="title">Eliana Yepez</h1>
+        <p class="section__text__p2">Full-stack Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/CV_2024.pdf ')">
+            Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href= './#contact'">
+            Contact Info
+        </button>
+        </div>
+        <div id="socials_container"> 
+            <img src="./assets/github.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://github.com/Arteinsana7'">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/eliana-yepez/'">
+                
+</div>
+
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick=" location.href='./#about'"> <!--  ce partie, la fleche est pas encore functionelle, regarder pourquoi le lien de marche pas-->
+            
+</section>  
+<section id="about">
+<p class="section__text__p1">Get to know More</p>
+<h1 class="title">About Me</h1> 
+<div class="section-container"> 
+    <div class="section__pic-container"> 
+        <img src="./assets/Profile.png" alt="Profile picture" class="about-pic">
+    </div>
+
+    <div class="about-details-container">
+       <div class="about-containers">
+        <div class="details-container">
+            <img 
+            src="./assets/experience.png " 
+            alt="Experience icon" 
+            class="icon"
+            >
+            <h3>Experience</h3>
+            <p>+ 10 years Freelance Designer, Marketing & sales </p>
+        </div> 
+        <div class="details-container">
+            <img src="./assets/education.png " 
+            alt="Education icon" 
+            class="icon">
+            <h3>Education</h3> 
+            <p> * Bachelor Full-stack developer (in progress) </p> 
+        </div>
+       </div>   
+       <div class="text-container">
+        <p> 
+            Mon parcours tech débute avec l' APPLE FOUNDATION PROGRAM,<br>
+            où j'ai développée ma première application mobile pour iOS. 
+            <br> Je confirme ainsi mon vif intérêt pour le développement et je décide de plonger 100% dans l'univers de l'informatique. 👩🏻‍💻🐟✨
+            <br> 
+            <br>
+             J'intègre ADA TECH SCHOOL pour une aventure de neuf mois, où je suis submergée dans la pratique et l'apprentissage des fundamentaux.
+            <br> Entre projets solo et collaborations, j'acquiers de nouvelles compétences tout en renforçant ma confiance et mon adaptabilité. 🚀 
+            Me voila  prête à franchir une étape décisive pour consolider mon parcours à travers une expérience inclusive d'alternance en entreprise.
+            <br>
+            <br>
+        </p>
+       </div> 
+    </div>
+</div> 
+<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick=" location.href='./#experience'">
+</section> 
+<section 
+
+id="experience">
+    <p class="section__text__p1">Découvre mes</p>
+
+    <h1 class="title"> Compétences </h1>
+
+    <div class="experience-details-containers">
+        <div class="about-containers">  
+            <div class="details-container">
+                <h2 class="experience-sub-title"> Développement Front-end</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>CSS </h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>TypeScript</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>React</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Figma</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Développement Back-end</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Node</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Express</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>SQL</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Docker</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Laravel</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3> Git / Github </h3>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick=" location.href='./#projects' ">
+</section>
+
+<section id="projects">
+    <p class="section__text__p1">Browse My recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+
+        <div class="about-containers">
+
+
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/Pico.png" 
+                alt="Project 1" 
+                class="project-img" >
+            </div>
+            <h2 class="experience-sub-title project-title">Pico-8</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Arteinsana7/projet-collectif-pico-8-citron'">
+                Github 
+                </button>  
+            </button>  
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://quanghung0.github.io/The-Daily-Space/boutton.html'">
+                            Demo
+            </button> 
+                
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/Extention.png" 
+                alt="Project 2" 
+                class="project-img" >
+            </div>
+            <h2 class="experience-sub-title project-title">D-Reader</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Arteinsana7/extension-navigateur-extension_walid_eliana_imelda'">
+                Github
+                </button>  
+            </button>  
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://quanghung0.github.io/The-Daily-Space/boutton.html'">
+                            Demo
+            </button> 
+                
+            </div>
+        </div>
+
+
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/daily.png" alt="Project 2" class="project-img" >
+            </div>
+            <h2 class="experience-sub-title project-title">The Daily Space</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+Github
+</button>  
+<button class="btn btn-color-2 project-btn" onclick="location.href='https://quanghung0.github.io/The-Daily-Space/boutton.html'">
+                Demo
+</button> 
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/Zappel-carre.png" alt="Project 2" class="project-img" >
+            </div>
+            <h2 class="experience-sub-title project-title">Zappel Phillip</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Arteinsana7/Zappel-Philipp'">
+Github
+</button>  
+</button>  
+<button class="btn btn-color-2 project-btn" onclick="location.href='https://quanghung0.github.io/The-Daily-Space/boutton.html'">
+                Demo
+</button> 
+
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/OnMeuble.png" alt="Project 2" class="project-img" >
+            </div>
+            <h2 class="experience-sub-title project-title">OnMeuble</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Arteinsana7/onmeuble'">
+Github
+</button>  
+<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Arteinsana7/onmeuble'">
+                Demo Soon
+</button> 
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" 
+    alt="Arrow icon" class="icon arrow" 
+    onclick=" location.href='./#contact' ">
+</section>
+<section id="contact">
+    <p class="section__text__p1"> Get in touch</p>
+    <h1 class="title"> Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" >
+            <p><a href="mailto:e.arteinsana@gmail.com"> e.arteinsana@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="linkIn icon" class="icon contact-icon email-icon" >
+            <p><a href="https://www.linkedin.com/in/eliana-yepez/"> LinkIn</a></p>
+     </div>
+    </div>
+    <div>
+     <img src="./assets/Double_up_64.png" alt="Arrow icon" class="final__arrow "   onclick=" location.href='./#profile' ">
+    </div>
+</section>
+
+<footer>
+    <p>Copyrigth &#169;  * Made by Eliana Yepez *</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

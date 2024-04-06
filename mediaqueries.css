@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
     #profile{
         height: 83vh;
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
 
     }
     .about-containers{
@@ -26,6 +26,12 @@
     .section-container{
         display: block;
     }
+    .final__arrow
+    {
+        display: none ;
+        
+
+    }
     .arrow{
         display:none;
     }
@@ -43,6 +49,7 @@
     }
     .about-containers {
         margin-top: 0;
+        /* height: 100vh; */
 
     }
 }
@@ -50,6 +57,7 @@
 @media screen and (max-width: 600px) {
     #contat, 
     footer {
+        /* position: relative; */
         height: 20vh;
         margin-bottom: 0;
     }
@@ -64,6 +72,7 @@
     .contact-info-upper-container, 
     .btn-container {
        flex-wrap: wrap; 
+       /* text-align: left;  a voir si ceci mets bien le texte a gauche quand screen 600 */ 
 
     }
     .contact-info-container {
@@ -88,7 +97,7 @@
     }
     .section__pic-container {
         /* position: relative; */
-        padding-top: 5rem;
+        padding-top: 10rem;
         width: auto;
         height: 46vw;
         justify-content: center;

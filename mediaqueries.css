@@ -1,7 +1,13 @@
 @media screen and (max-width: 1400px) {
     #profile{
-        height: 83vh;
+        height: 90vh;
         margin-bottom: 2rem;
+
+    }
+    #contact{
+      height: 210vh;
+      margin-top: 5rem;
+
 
     }
     .about-containers{
@@ -18,9 +24,36 @@
     #hamburger-nav {
         display: flex;
     }
+    #about {
+        height: auto; /* Set height to auto to allow content to expand vertically */
+        padding-top: 5rem; /* Reduce top padding to create more space */
+        margin-bottom: 2rem; /* Adjust margin for spacing */
+    }
+
+    #about .section-container {
+        flex-direction: column; /* Change the flex direction to stack elements vertically */
+        align-items: center; /* Center the items horizontally */
+    }
+  .section__text {
+        margin-top: 5rem; /* Add margin to the top of the section text */
+    }
+
+    #about .section__pic-container {
+        margin-top: -9rem; /* Add margin to the top of the image container */
+    }
+    #experience {
+        height: auto; /* Set height to auto to allow content to expand vertically */
+        padding-top: 5rem; /* Reduce top padding to create more space */
+        margin-bottom: 2rem; /* Adjust margin for spacing */
+    }
+    #experience .title {
+        margin-bottom: 2rem; /* Add margin to the bottom of the title */
+    }
+
     #experience,
     .experience-details-container {
         margin-top: 2rem;
+      
     }
     #profile, 
     .section-container{
@@ -51,6 +84,18 @@
         margin-top: 0;
         /* height: 100vh; */
 
+    }
+    /* #contat{
+        padding: 20px;
+
+    } */
+    
+
+  footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%; /* Ensure the footer spans the full width of the viewport */
+        z-index: 1000; /* Set a higher z-index for the footer */
     }
 }
 

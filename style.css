@@ -207,7 +207,7 @@ ajuster la taille de le menu hamburger quand il est en mode écran.
     display: flex;
     justify-content: center;
     gap: 3rem ;
-  height: 100vh;
+  height: 110vh;
     position: relative;
     margin-bottom: 7rem;
    
@@ -397,7 +397,7 @@ margin-bottom: 1rem;
 
   #experience{
     position: relative;
-    height: 113vh;
+    height: 120vh;
     margin-bottom: 5rem;
     padding-top: 10rem; 
     /* à rajouter sur toutes les sections  */

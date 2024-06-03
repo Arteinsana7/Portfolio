@@ -5,7 +5,8 @@
 
     }
     #contact{
-      height: 210vh;
+      height: 100vh;
+      /* TO check maybe have to change this size because is too much spacing */
       margin-top: 5rem;
 
 
@@ -92,7 +93,8 @@
     
 
   footer {
-        position: fixed;
+        position: relative;
+        /* possible de faire absolute, regarder encode avec le extra infos */
         bottom: 0;
         width: 100%; /* Ensure the footer spans the full width of the viewport */
         z-index: 1000; /* Set a higher z-index for the footer */
@@ -142,7 +144,7 @@
     }
     .section__pic-container {
         /* position: relative; */
-        padding-top: 10rem;
+        /* padding-top: 10rem; */
         width: auto;
         height: 46vw;
         justify-content: center;

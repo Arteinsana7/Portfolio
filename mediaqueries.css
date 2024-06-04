@@ -24,14 +24,18 @@
     }
     #hamburger-nav {
         display: flex;
+     
+
     }
     #about {
         height: auto; /* Set height to auto to allow content to expand vertically */
-        padding-top: 5rem; /* Reduce top padding to create more space */
+        padding-top: 6rem; /* Reduce top padding to create more space */
         margin-bottom: 2rem; /* Adjust margin for spacing */
+        text-align: left;
     }
 
     #about .section-container {
+       
         flex-direction: column; /* Change the flex direction to stack elements vertically */
         align-items: center; /* Center the items horizontally */
     }
@@ -40,11 +44,11 @@
     }
 
     #about .section__pic-container {
-        margin-top: -9rem; /* Add margin to the top of the image container */
+        margin-top: 3rem; /* Add margin to the top of the image container */
     }
 
     #profile{
-        padding-top: 6rem;
+        padding-top: 10rem;
     }
     #experience {
         height: auto; /* Set height to auto to allow content to expand vertically */
@@ -63,6 +67,13 @@
     #profile, 
     .section-container{
         display: block;
+    }
+
+    #contact{
+        height: auto;
+        margin-top: 70rem;
+        margin-bottom: 7rem;
+  
     }
     .final__arrow
     {

@@ -319,8 +319,6 @@ margin-bottom: 1rem;
     
   }
 
-  
-
   .about__button {
     display: inline-block;
     gap:1rem;
@@ -530,7 +528,6 @@ padding-top: 6rem;
     }
 
  footer {
-  z-index: 1000;
   display: flex;
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */

@@ -42,6 +42,10 @@
     #about .section__pic-container {
         margin-top: -9rem; /* Add margin to the top of the image container */
     }
+
+    #profile{
+        padding-top: 6rem;
+    }
     #experience {
         height: auto; /* Set height to auto to allow content to expand vertically */
         padding-top: 5rem; /* Reduce top padding to create more space */
